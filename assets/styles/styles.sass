@@ -1,0 +1,78 @@
+$title-font: 'Inconsolata', monospace
+$copy-font: 'Merriweather', serif
+
+$black: #333333
+$off-white: #FAF6EA 
+$dark: #1C3645
+$light: #798A94
+$color-shock: #FB4237
+
+@mixin spacer-s($height,$background-color)
+    height: $height
+    background-color: $background-color
+
+@mixin hover-nav-s($color,$web-kit-transition,$transition)
+    color: $color
+    -webkit-transition: $web-kit-transition 
+    transition: $transition
+
+
+
+body 
+    background-color: $off-white
+
+.navbar 
+    font-family: $title-font
+    font-size: 18px
+    font-weight: bold
+    
+
+
+.hover-nav
+    @include hover-nav-s($light,width 2s,width 2s)
+   
+
+.circle 
+	width: 25px
+	height: 25px
+    text-align: right
+	background: $black
+	-moz-border-radius: 50px
+	-webkit-border-radius: 50px
+	border-radius: 50px
+
+.circle-align
+  display: flex
+  justify-content: space-between
+  padding-top: 10px
+
+.main-image
+    position: block
+    width: 100%
+    background-size: cover
+    overflow: hidden
+
+.spacer
+    @include spacer-s(25px,$off-white)
+
+.social-icon-align
+    display: flex
+    justify-content: flex-end
+    padding-top: 10px
+
+.social-icon img
+    width: 30px
+    height: 30px
+
+.logo-align
+    padding-top: 10px
+
+.thumbnail-gallery-align
+    display: flex
+    justify-content: space-around
+
+    
+    
+
+
+    
