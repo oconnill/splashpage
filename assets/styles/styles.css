@@ -29,10 +29,8 @@ body {
   padding-top: 10px;
 }
 
-.main-image {
-  position: block;
-  width: 100%;
-  background-size: cover;
+.main-image img {
+  max-width: 100%;
   overflow: hidden;
 }
 
@@ -66,6 +64,10 @@ body {
   padding-top: 10px;
 }
 
+.logo-align img {
+  height: 30px;
+}
+
 .thumbnail-gallery-align {
   display: flex;
   justify-content: space-around;
@@ -85,4 +87,8 @@ hr {
   font-family: "Inconsolata", monospace;
   color: #798A94;
   font-weight: 400;
+}
+
+.biopic img {
+  height: 300px;
 }
