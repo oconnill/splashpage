@@ -32,6 +32,7 @@ body {
 .main-image img {
   max-width: 100%;
   overflow: hidden;
+  background-size: contain;
 }
 
 .spacer {
@@ -65,7 +66,7 @@ body {
 }
 
 .logo-align img {
-  height: 30px;
+  height: 70px;
 }
 
 .thumbnail-gallery-align {
@@ -73,8 +74,8 @@ body {
   justify-content: space-around;
 }
 
-.thumbnail-gallery-align:hover {
-  background-color: green;
+.thumbnail-gallery-align img:hover {
+  background-color: #798A94;
   cursor: pointer;
 }
 
@@ -91,4 +92,11 @@ hr {
 
 .biopic img {
   height: 300px;
+}
+
+.footer-headline {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: #333333;
 }

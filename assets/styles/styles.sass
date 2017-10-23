@@ -47,6 +47,7 @@ body
 .main-image img
     max-width: 100%
     overflow: hidden
+    background-size: contain
 
 .spacer
     @include spacer-s(25px,$off-white)
@@ -72,15 +73,15 @@ body
     padding-top: 10px
 
 .logo-align img
-    height: 30px
+    height: 70px
 
 .thumbnail-gallery-align
     display: flex
     justify-content: space-around
 		
 
-.thumbnail-gallery-align:hover
-  background-color: green
+.thumbnail-gallery-align img:hover
+  background-color: $light
   cursor: pointer
 
 hr 
@@ -94,5 +95,11 @@ hr
 
 .biopic img
     height: 300px
+
+.footer-headline
+    font-family: $copy-font
+    font-weight: 900
+    font-size: 25px
+    color: $black
 
     
