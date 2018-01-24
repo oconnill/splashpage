@@ -1,5 +1,5 @@
 body {
-  background-color: #FAF6EA;
+  background-color: #FFFFFF;
 }
 
 .navbar {
@@ -37,7 +37,7 @@ body {
 
 .spacer {
   height: 25px;
-  background-color: #FAF6EA;
+  background-color: #FFFFFF;
 }
 
 .spacer-black {
@@ -99,4 +99,8 @@ hr {
   font-weight: 900;
   font-size: 25px;
   color: #333333;
+}
+
+h5 {
+  padding-top: 15px;
 }
